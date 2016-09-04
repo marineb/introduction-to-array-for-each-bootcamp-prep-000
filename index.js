@@ -8,3 +8,7 @@ doToElementsInArray(animals, changeCompletely)
  
 // log out animals -- pretty cool, right?
 console.log(animals)
+
+function doToElementsInArray(array, callback) {
+  array.forEach(callback)
+}
